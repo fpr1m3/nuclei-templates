@@ -29,7 +29,6 @@ requests:
       - "{{BaseURL}}/openam/json/serverinfo/*"
 
     redirects: true
-    stop-at-first-match: true
     max-redirects: 2
     matchers-condition: and
     matchers:
